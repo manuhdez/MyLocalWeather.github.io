@@ -1,0 +1,293 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="src/styles/main.css">
+    <title>My local weather app</title>
+  </head>
+  <body>
+		<div class="foto"></div>
+    <div class="container">
+      <div class="header">
+        <h2>My local weather</h2>
+      </div>
+      <div class="weather">
+        <div class="boton">
+        <button class="convert">
+          <i class="medium material-icons">autorenew</i>
+        </button>
+      </div>
+
+        <div class="location">
+          <h1 class="temperatura C"></h1>
+          <h1 class="temperatura F"></h1>
+					<h2 class="current-location"></h2>
+        </div>
+        <div class="sky">
+					<div class="icon-container">
+
+
+<svg class="stormy" width="100%" height="auto" viewBox="0 0 44 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stormy" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" fill-rule="nonzero">
+            <g id="Group" transform="translate(10.000000, 5.000000)" stroke-width="1.2" fill="#91C0F8" stroke-linejoin="round">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+            <g id="Group" stroke-width="1.2" fill="#57A0EE" stroke-linejoin="round">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(6.000000, 15.000000)" fill="#FFA500">
+                <polygon id="Shape" points="3.3 0.1 9.5 0.1 5.4 7.3 9.3 7.3 0.5 17.6 3.9 9.9 0.1 9.9"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
+
+
+<svg class="sunny" width="100%" height="auto" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sunny" transform="translate(1.000000, 1.000000)" stroke="#FFA500" stroke-width="2">
+            <g id="Group" stroke-linecap="round">
+                <path d="M12,21 L12,24" id="Shape"></path>
+                <g transform="translate(5.282486, 20.131728) rotate(45.000000) translate(-5.282486, -20.131728) translate(4.282486, 18.631728)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+                <g transform="translate(1.500000, 13.000000) rotate(90.000000) translate(-1.500000, -13.000000) translate(0.500000, 11.500000)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+                <g transform="translate(3.868272, 5.282486) rotate(135.000000) translate(-3.868272, -5.282486) translate(2.868272, 3.782486)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+                <g transform="translate(11.000000, 1.500000) rotate(180.000000) translate(-11.000000, -1.500000) translate(10.000000, 0.000000)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+                <g transform="translate(18.717514, 3.868272) rotate(-135.000000) translate(-18.717514, -3.868272) translate(17.717514, 2.368272)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+                <g transform="translate(22.500000, 11.000000) rotate(-90.000000) translate(-22.500000, -11.000000) translate(21.500000, 9.500000)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+                <g transform="translate(20.131728, 18.717514) rotate(-45.000000) translate(-20.131728, -18.717514) translate(19.131728, 17.217514)" id="Shape">
+                    <path d="M0,0 L0,3"></path>
+                </g>
+            </g>
+            <circle id="Oval" fill="#FFA500" fill-rule="nonzero" cx="12" cy="12" r="5"></circle>
+        </g>
+    </g>
+</svg>
+
+<svg class="snowy" width="100%" height="auto" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="snowy-6" transform="translate(1.000000, 1.000000)">
+            <g id="Group" stroke="#FFFFFF" fill-rule="nonzero" stroke-width="1.2" fill="#57A0EE" stroke-linejoin="round">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(4.000000, 24.000000)" stroke-linecap="round" stroke="#57A0EE">
+                <g id="Shape">
+                    <path d="M3,0.5 L3,5.5" stroke-width="1.2"></path>
+                    <path d="M1.23223305,1.23223305 L4.76776695,4.76776695"></path>
+                    <path d="M4.76776695,1.23223305 L1.23223305,4.76776695"></path>
+                    <path d="M5.5,3 L0.5,3"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(14.000000, 24.000000)" stroke-linecap="round" stroke="#57A0EE">
+                <g id="Shape">
+                    <path d="M3,0.5 L3,5.5" stroke-width="1.2"></path>
+                    <path d="M1.23223305,1.23223305 L4.76776695,4.76776695"></path>
+                    <path d="M4.76776695,1.23223305 L1.23223305,4.76776695"></path>
+                    <path d="M5.5,3 L0.5,3"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(24.000000, 24.000000)" stroke-linecap="round" stroke="#57A0EE">
+                <g id="Shape">
+                    <path d="M3,0.5 L3,5.5" stroke-width="1.2"></path>
+                    <path d="M1.23223305,1.23223305 L4.76776695,4.76776695"></path>
+                    <path d="M4.76776695,1.23223305 L1.23223305,4.76776695"></path>
+                    <path d="M5.5,3 L0.5,3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<svg class="rainy" width="100%" height="auto" viewBox="0 0 34 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rainy-6" transform="translate(1.000000, 1.000000)">
+            <g id="Group" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="1.2" fill="#57A0EE" stroke-linejoin="round">
+                <g id="Shape">
+                    <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(11.000000, 25.000000)" stroke="#91C0F8" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,4">
+                <path d="M0,2 L0,10" id="Shape"></path>
+                <path d="M4,0 L4,8" id="Shape"></path>
+                <path d="M8,1 L8,9" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<svg class="sun-rain" width="100%" height="auto" viewBox="0 0 42 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rainy-3" transform="translate(1.000000, 1.000000)">
+            <g id="Group">
+                <g stroke="#FFA500" stroke-width="2">
+                    <g id="Shape" stroke-linecap="round">
+                        <path d="M12,21 L12,24" fill="#000000" fill-rule="nonzero"></path>
+                        <g transform="translate(5.282486, 20.131728) rotate(45.000000) translate(-5.282486, -20.131728) translate(4.282486, 18.631728)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                        <g transform="translate(1.500000, 13.000000) rotate(90.000000) translate(-1.500000, -13.000000) translate(0.500000, 11.500000)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                        <g transform="translate(3.868272, 5.282486) rotate(135.000000) translate(-3.868272, -5.282486) translate(2.868272, 3.782486)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                        <g transform="translate(11.000000, 1.500000) rotate(180.000000) translate(-11.000000, -1.500000) translate(10.000000, 0.000000)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                        <g transform="translate(18.717514, 3.868272) rotate(-135.000000) translate(-18.717514, -3.868272) translate(17.717514, 2.368272)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                        <g transform="translate(22.500000, 11.000000) rotate(-90.000000) translate(-22.500000, -11.000000) translate(21.500000, 9.500000)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                        <g transform="translate(20.131728, 18.717514) rotate(-45.000000) translate(-20.131728, -18.717514) translate(19.131728, 17.217514)">
+                            <path d="M0,0 L0,3"></path>
+                        </g>
+                    </g>
+                    <circle id="Oval" fill="#FFA500" fill-rule="nonzero" cx="12" cy="12" r="5"></circle>
+                </g>
+                <g transform="translate(8.000000, 6.000000)" stroke="#FFFFFF" fill-rule="nonzero" id="Shape" stroke-width="1.2" fill="#57A0EE" stroke-linejoin="round">
+                    <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(20.000000, 31.000000)" stroke="#91C0F8" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,7">
+                <path d="M0,2 L0,10" id="Shape"></path>
+                <path d="M6,0 L6,8" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<svg class="cloudy" width="100%" height="auto" viewBox="0 0 44 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="cloudy" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" fill-rule="nonzero" stroke-width="1.2">
+            <g id="Group" transform="translate(10.000000, 3.000000)" fill="#91C0F8">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+            <g id="Group" fill="#57A0EE">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<svg class="cloudy-sun" width="100%" height="auto" viewBox="0 0 42 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloudy-day-3" transform="translate(1.000000, 1.000000)">
+            <g id="Group" stroke="#FFA500" stroke-width="2">
+                <g id="Shape" stroke-linecap="round">
+                    <path d="M12,21 L12,24"></path>
+                    <g transform="translate(5.282486, 20.131728) rotate(45.000000) translate(-5.282486, -20.131728) translate(4.282486, 18.631728)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                    <g transform="translate(1.500000, 13.000000) rotate(90.000000) translate(-1.500000, -13.000000) translate(0.500000, 11.500000)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                    <g transform="translate(3.868272, 5.282486) rotate(135.000000) translate(-3.868272, -5.282486) translate(2.868272, 3.782486)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                    <g transform="translate(11.000000, 1.500000) rotate(180.000000) translate(-11.000000, -1.500000) translate(10.000000, 0.000000)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                    <g transform="translate(18.717514, 3.868272) rotate(-135.000000) translate(-18.717514, -3.868272) translate(17.717514, 2.368272)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                    <g transform="translate(22.500000, 11.000000) rotate(-90.000000) translate(-22.500000, -11.000000) translate(21.500000, 9.500000)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                    <g transform="translate(20.131728, 18.717514) rotate(-45.000000) translate(-20.131728, -18.717514) translate(19.131728, 17.217514)">
+                        <path d="M0,0 L0,3"></path>
+                    </g>
+                </g>
+                <circle id="Oval" fill="#FFA500" fill-rule="nonzero" cx="12" cy="12" r="5"></circle>
+            </g>
+            <g id="Group" transform="translate(8.000000, 6.000000)" stroke="#FFFFFF" fill-rule="nonzero" stroke-width="1.2" fill="#57A0EE" stroke-linejoin="round">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<svg class="cloudy-moon" width="100%" height="auto" viewBox="0 0 47 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloudy-night-2" transform="translate(1.000000, 0.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(21.000000, 0.000000)" fill="#FFA500">
+                <g id="Shape">
+                    <polygon points="2.3 0.5 3 1.7 4.2 2.3 3 3 2.3 4.2 1.7 3 0.5 2.3 1.7 1.7"></polygon>
+                </g>
+                <g transform="translate(20.000000, 10.000000)" id="Shape">
+                    <polygon points="2.3 0.5 3 1.7 4.2 2.3 3 3 2.3 4.2 1.7 3 0.5 2.3 1.7 1.7"></polygon>
+                </g>
+                <g transform="translate(3.000000, 2.000000)" stroke="#FFA500" id="Shape" stroke-width="2" stroke-linejoin="round">
+                    <path d="M10.5,10.2 C10.5,6.5 12.5,3.3 15.5,1.5 C14,0.6 12.3,0.2 10.5,0.2 C5,0.2 0.5,4.7 0.5,10.2 C0.5,15.7 5,20.2 10.5,20.2 C12.3,20.2 14,19.7 15.5,18.9 C12.5,17.2 10.5,13.9 10.5,10.2 Z"></path>
+                </g>
+            </g>
+            <g id="Group" transform="translate(0.000000, 5.000000)" stroke="#FFFFFF" stroke-width="1.2" fill="#91C0F8" stroke-linejoin="round">
+                <path d="M31.7,14.4 C31.7,9.8 28,6.2 23.5,6.2 C22.5,6.2 21.6,6.4 20.7,6.7 C20.4,3.3 17.6,0.5 14.1,0.5 C10.4,0.5 7.4,3.5 7.4,7.2 C7.4,8 7.6,8.8 7.8,9.5 C7.5,9.4 7.1,9.4 6.8,9.4 C3.1,9.4 0.1,12.4 0.1,16.1 C0.1,19.7 3,22.7 6.6,22.8 L23.8,22.8 C28.2,22.3 31.7,18.8 31.7,14.4 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<svg class="clear-moon" width="100%" height="auto" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="night" fill-rule="nonzero" fill="#FFA500">
+            <g id="Group">
+                <polygon id="Shape" points="2.3 0.5 3 1.7 4.2 2.3 3 3 2.3 4.2 1.7 3 0.5 2.3 1.7 1.7"></polygon>
+            </g>
+            <g id="Group" transform="translate(20.000000, 10.000000)">
+                <polygon id="Shape" points="2.3 0.5 3 1.7 4.2 2.3 3 3 2.3 4.2 1.7 3 0.5 2.3 1.7 1.7"></polygon>
+            </g>
+            <g id="Group" transform="translate(3.000000, 2.000000)" stroke="#FFA500" stroke-width="2" stroke-linejoin="round">
+                <path d="M10.5,10.2 C10.5,6.5 12.5,3.3 15.5,1.5 C14,0.6 12.3,0.2 10.5,0.2 C5,0.2 0.5,4.7 0.5,10.2 C0.5,15.7 5,20.2 10.5,20.2 C12.3,20.2 14,19.7 15.5,18.9 C12.5,17.2 10.5,13.9 10.5,10.2 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+					</div>
+          <p class="current-sky"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

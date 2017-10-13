@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pathway+Gothic+One');
+
+/* Page reset */
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header & background */
+.foto {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+  width: 100%;
+  height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header h2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+/* Botón de celcius a fahrenheit */
+
+.boton {
+  position: absolute;
+  bottom: 115px;
+  left: 280px;
+	display: none;
+}
+
+.convert {
+  height: 50px;
+  width: 50px;
+	padding: 5px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert:active {
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Weather container */
+
+.weather {
+  width: 100%;
+  height: 250px;
+
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+
+  background-image: linear-gradient(to top, #292929, rgba(108, 108, 108, 0.0));
+}
+
+.location {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.temperatura {
+  font-size: 115px;
+  margin-bottom: 0px;
+}
+
+.F {
+  display: none;
+}
+
+.current-location {
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sky {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 150px;
+  bottom: 40px;
+	justify-content: center;
+}
+
+.icon-container {
+  height: 65px;
+  width: 65px;
+  align-items: center;
+}
+
+.current-sky {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 699px) {
+
+	.foto {
+		background-size: auto 100vh;
+	}
+
+  .weather {
+    height: 375px;
+  }
+
+  .location {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .temperatura {
+    font-size: 80px;
+  }
+
+  .current-location {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .sky {
+    right: 45px;
+    bottom: 15px;
+  }
+
+  .current-sky {
+    font-size: 18px;
+		text-align: center;
+  }
+
+	.icon-container {
+		width: 50px;
+		height: 50px;
+	}
+
+  .boton {
+		bottom: 85px;
+		left: 70px;
+		display: none;
+		opacity: 0;
+  }
+
+  .convert {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Weather icons style */
+
+.stormy {
+	display: none;
+}
+
+.sunny {
+	display: none;
+}
+
+.snowy {
+	display: none;
+}
+
+.rainy {
+	display: none;
+}
+
+.sun-rain {
+	display: none;
+}
+
+.cloudy {
+	display: none;
+}
+
+.cloudy-moon {
+	display: none;
+}
+
+.cloudy-sun {
+	display: none;
+}
+
+.clear-moon {
+	display: none;
+}
